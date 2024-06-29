@@ -1,0 +1,86 @@
+body{
+margin:0;
+padding-top:800px ;
+text-align: center;
+
+
+}
+#profile{
+border-radius: 10%;
+width: 50%;
+}
+#welcome{
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(Cyan 0%,rgb(145, 216, 145)100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+h1{
+    font-size: 40px;
+    font-family:cursive;
+
+}
+h2{
+    font-size:30px;
+    font-weight: 300;
+    font-family: monospace;
+}
+#bio{
+    font-family: cursive;
+    padding: 50px;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+.parallax-inner{
+    display:table-cell;
+    vertical-align: middle;
+}
+.menu{
+    list-style: none;
+    position: fixed;;
+    background-color: white;
+    margin-top: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
+    cursor:pointer;
+}
+.links{
+    display: inline;
+    padding: left 33px;
+    padding-right:25;
+    padding-bottom:5px;
+    font-family:fantasy; 
+    font-size:  20px;
+
+}
+#name{
+    font-family: 'Tilt Prism', cursive;
+    font-size: 50px;
+}
+#links:hover{
+    font-size: 25;
+    text-decoration: underline;
+}
+#websites a {
+text-decoration: underline !important;
+color: green !important;
+}
+#contact{
+    background: Cyan;
+}
+.contact_1 h3 {
+    display: inline;
+}
+h2{
+    text-align:left
+}
+#funfacts {
+    margin-left:50px
+}
